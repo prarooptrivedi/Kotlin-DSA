@@ -1,6 +1,6 @@
 *.iml
 .gradle
-src/main/java/com/praroop/dsa/Practice.kt
+app/src/main/java/com/praroop/dsa/practice.kt
 /local.properties
 /.idea/caches
 /.idea/libraries
