@@ -18,6 +18,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.praroop.dsa.BusinessCardScanner.BusinessCardScannerScreen
+import com.praroop.dsa.BusinessCardScanner.BusinessCardScannerScreen1
 import com.praroop.dsa.ui.theme.DummyTheme
 
 // CHANGE: Extend FragmentActivity instead of ComponentActivity
@@ -28,7 +30,8 @@ class MainActivity : FragmentActivity() {
         setContent {
             DummyTheme {
                 // Pass the FragmentActivity instance to the composable
-                AuthAppScreen(activity = this)
+//                AuthAppScreen(activity = this)
+                BusinessCardScannerScreen1()
             }
         }
     }

@@ -59,6 +59,13 @@ dependencies {
 //    implementation(libs.androidx.biometric)
     implementation ("androidx.biometric:biometric:1.1.0") // Check for the latest version
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0") // Use the latest stable version
+    // ML Kit Text Recognition
+    implementation ("com.google.mlkit:text-recognition:16.0.0")
+    // CameraX
+    implementation ("androidx.camera:camera-core:1.3.4")
+    implementation ("androidx.camera:camera-camera2:1.3.4")
+    implementation ("androidx.camera:camera-lifecycle:1.3.4")
+    implementation ("androidx.camera:camera-view:1.3.4")
 
 
 
